@@ -56,6 +56,7 @@
     
     <script>
   import paystack from "vue3-paystack";
+  import router from "../router";
   
   export default {
     name: "Support",
@@ -79,7 +80,8 @@
         window.alert("Payment recieved");
       },
       onSuccessfulPayment: () => {
-        alert("SUCCESSFUL PAYMENT")
+        alert("SUCCESSFUL PAYMENT");
+        router.push('/success')
       },
       onCancelledPayment: () => {
         alert("UNSUCCESSFUL PAYMENTTTTTTTT")
