@@ -84,7 +84,7 @@
         router.push('/success')
       },
       onCancelledPayment: () => {
-        alert("UNSUCCESSFUL PAYMENTTTTTTTT")
+        alert("PAYMENT CANCELLED")
       },
       close: () => {
         console.log("You closed checkout page");

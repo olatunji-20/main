@@ -1,10 +1,10 @@
 <template>
-  <div class="home">
+  <div id="home">
     <h1>GLORIA & IJEM</h1>
     <div class="picture">
       <!-- <img class="image1" src="../assets/ijem2.jpg" /> -->
     </div>
-    <p>Please click on the button below to support.</p>
+    <h4>Please click on the button below to support.</h4>
     <router-link to="/support-page"><button>SUPPORT</button></router-link>
     <img
       style="max-width: 200px; display: block; margin: 20px auto"
@@ -22,18 +22,18 @@ export default {
 </script>
 
 <style scoped>
-.home {
+#home {
   background-image: url(../assets/ijem2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover cover;
   background-attachment: scroll;
-  padding: 50px 20px;
+  padding: 80px 20px;
 }
 .picture {
   width: 50%;
   height: 400px;
-  background: rgb(215, 150, 126);
+  background: floralwhite;
   border: 1px solid blue;
   border-radius: 3px;
   margin: 50px auto 50px;

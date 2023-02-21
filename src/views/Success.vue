@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h1>THANKS.</h1>
+        <h3>Thanks for attending our attending.</h3>
     </section>
 </template>
 
