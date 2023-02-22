@@ -24,13 +24,7 @@ export default {
 
 <style scoped>
 
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap'); */
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); */
-
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 
 
 #home {
@@ -39,7 +33,7 @@ export default {
   background-repeat: no-repeat;
   background-position: cover cover;
   background-attachment: scroll;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
 .picture {
   width: 50%;
@@ -56,13 +50,13 @@ export default {
   border-radius: 5px;
 }
 h1 {
-  font-family: 'Aclonica', sans-serif;
+  font-family: "Aclonica", sans-serif;
   font-weight: bolder;
   font-size: 50px;
   color: #993300;
 }
 h4 {
-  font-family: 'Aclonica', sans-serif;
+  font-family: "Aclonica", sans-serif;
 }
 button {
   width: 200px;
@@ -77,7 +71,6 @@ button:hover {
   background-color: #8ebf42;
 }
 
-
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 42px;
@@ -87,7 +80,4 @@ button:hover {
     height: 550px;
   }
 }
-
-
-
 </style>

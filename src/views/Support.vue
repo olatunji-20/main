@@ -80,7 +80,7 @@
         window.alert("Payment recieved");
       },
       onSuccessfulPayment: () => {
-        alert("SUCCESSFUL PAYMENT");
+        // alert("SUCCESSFUL PAYMENT");
         router.push('/success')
       },
       onCancelledPayment: () => {

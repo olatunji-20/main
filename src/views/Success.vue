@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3>Thanks for attending our wedding.</h3>
+        <h3>Thanks for sharing in our joy.</h3>
     </section>
 </template>
 
@@ -16,8 +16,13 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+section {
+    padding: 50px 20px;
+}
 h3 {
-    color: hotpink;
-    font-size: 60px;
+    color: #993300;
+    font-size: 55px;
+    font-family: 'Aclonica', sans-serif;
 }
 </style>
