@@ -1,6 +1,6 @@
 <template>
     <section>
-        <h3>Thanks for attending our attending.</h3>
+        <h3>Thanks for attending our wedding.</h3>
     </section>
 </template>
 
@@ -16,8 +16,8 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+h3 {
     color: hotpink;
-    font-size: 90px;
+    font-size: 60px;
 }
 </style>
