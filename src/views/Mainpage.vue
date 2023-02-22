@@ -34,7 +34,7 @@ export default {
 
 
 #home {
-  background-image: url(../assets/ijem2.jpg);
+  background-image: url(../assets/lala.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover cover;
@@ -78,12 +78,12 @@ button:hover {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   h1 {
     font-size: 42px;
   }
   .picture {
-    width: 75%;
+    width: 80%;
     height: 550px;
   }
 }
