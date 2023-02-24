@@ -26,22 +26,27 @@ export default {
 
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 
-
 #home {
   background-image: url(../assets/lala.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover cover;
   background-attachment: scroll;
-  padding: 100px 20px;
+  padding: 4.375rem 1.25rem;
+}
+h1 {
+  font-family: "Aclonica", sans-serif;
+  font-weight: bolder;
+  font-size: 3.125rem;
+  color: #993300;
 }
 .picture {
   width: 50%;
-  height: 600px;
+  height: 37.5rem;
   background: floralwhite;
   /* border: 1px solid green; */
   border-radius: 8px;
-  margin: 50px auto 70px;
+  margin: 3.125rem auto 3.125rem;
 }
 .image1 {
   width: 100%;
@@ -49,35 +54,35 @@ export default {
   object-fit: cover;
   border-radius: 5px;
 }
-h1 {
-  font-family: "Aclonica", sans-serif;
-  font-weight: bolder;
-  font-size: 50px;
-  color: #993300;
-}
+ 
 h4 {
   font-family: "Aclonica", sans-serif;
 }
 button {
-  width: 200px;
-  height: 50px;
+  width: 12.5rem;
+  height: 3.125rem;
   border-radius: 5px;
+  font-weight: bolder;
   background: #8ebf42;
   color: white;
   border: 0px;
 }
 button:hover {
   cursor: pointer;
-  background-color: #8ebf42;
+  background-color: #8ebf99;
 }
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 42px;
+    font-size: 2.1875rem;
   }
   .picture {
-    width: 80%;
-    height: 550px;
+    width: 82%;
+    height: 34.375rem;
+    margin: 3.125rem auto 2.5rem;
+  }
+  h4 {
+    font-size: 0.9375rem
   }
 }
 </style>

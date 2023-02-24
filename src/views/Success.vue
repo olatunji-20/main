@@ -22,7 +22,7 @@ section {
 }
 h3 {
     color: #993300;
-    font-size: 55px;
+    font-size: 3.4375rem;
     font-family: 'Aclonica', sans-serif;
 }
 </style>
