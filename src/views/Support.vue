@@ -95,7 +95,7 @@
         amount: 0,
         full_name: "",
         email: "",
-        PUBLIC_KEY: "pk_live_216edbe4137aa0470e7ec10bb1d090daba36e652",
+        PUBLIC_KEY: "pk_live_7edec16323dd6fed104c0764b2e7077c96156d00",
       };
     },
   };
