@@ -2,7 +2,7 @@
   <div id="home">
     <!-- <h1>GLORIA & IJEM</h1> -->
     <div class="picture">
-      <img class="image1" src="../assets/ijimage.jpg" />
+      <!-- <img class="image1" src="../assets/ijimage.jpg" /> -->
     </div>
     <br />
     <h4>Please click on the button below to support.</h4>
@@ -43,7 +43,7 @@ export default {
 .picture {
   width: 50%;
   height: 37.5rem;
-  /* border: 1px solid green; */
+  border: 1px solid green;
   border-radius: 8px;
   margin: 1.125rem auto 3.125rem;
 }
@@ -73,7 +73,7 @@ button:hover {
 
 @media screen and (max-width: 600px) {
   #home {
-  background-image: url(../assets/kkk.jpg);
+  background-image: url(../assets/fff.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover cover;
@@ -86,7 +86,7 @@ button:hover {
     margin: 3.125rem auto 2.5rem;
   }
   h4 {
-    font-size: 0.9375rem
+    font-size: 0.7rem
   }
 }
 </style>
