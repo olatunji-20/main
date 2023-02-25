@@ -2,7 +2,7 @@
   <div id="home">
     <!-- <h1>GLORIA & IJEM</h1> -->
     <div class="picture">
-      <img class="image1" src="../assets/ijimage.jpg" />
+      <img class="image1" src="../assets/rrr.jpg" />
     </div>
     <br />
     <h4>Please click on the button below to support.</h4>
@@ -27,24 +27,18 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 
 #home {
-  background-image: url(../assets/aaa.jpg);
+  background-image: url(../assets/qaq.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover cover;
   background-attachment: scroll;
   object-fit: cover;
-  padding: 7.375rem 1.25rem;
+  padding: 6.375rem 1.25rem;
 }
-/* h1 {
-  font-family: "Aclonica", sans-serif;
-  font-weight: bolder;
-  font-size: 3.125rem;
-  color: #993300;
-} */
+
 .picture {
   width: 50%;
   height: 37.5rem;
-  /* border: 1px solid green; */
   border-radius: 8px;
   margin: 1.125rem auto 3.125rem;
 }
@@ -88,7 +82,7 @@ button:hover {
     margin: 3.125rem auto 2.5rem;
   }
   h4 {
-    font-size: 0.7rem
+    font-size: 0.8rem
   }
 }
 </style>
