@@ -2,7 +2,7 @@
   <div id="home">
     <!-- <h1>GLORIA & IJEM</h1> -->
     <div class="picture">
-      <img class="image1" src="../assets/rrr.jpg" />
+      <img class="image1" src="../assets/ccc.jpg" />
     </div>
     <br />
     <h4>Please click on the button below to support.</h4>
@@ -37,10 +37,10 @@ export default {
 }
 
 .picture {
-  width: 50%;
+  width: 60%;
   height: 37.5rem;
   border-radius: 8px;
-  margin: 1.125rem auto 3.125rem;
+  margin: 1.125rem auto 2.125rem;
 }
 .image1 {
   width: 100%;
@@ -77,8 +77,8 @@ button:hover {
   padding: 4.375rem 1.25rem;
 }
   .picture {
-    width: 83%;
-    height: 34.375rem;
+    width: 88%;
+    height: 33.375rem;
     margin: 3.125rem auto 2.5rem;
   }
   h4 {
