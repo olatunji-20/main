@@ -1,8 +1,8 @@
 <template>
   <div id="home">
-    <h1>GLORIA & IJEM</h1>
+    <!-- <h1>GLORIA & IJEM</h1> -->
     <div class="picture">
-      <img class="image1" src="../assets/ijimage.jpg" />
+      <!-- <img class="image1" src="../assets/ijimage.jpg" /> -->
     </div>
     <br />
     <h4>Please click on the button below to support.</h4>
@@ -43,7 +43,6 @@ h1 {
 .picture {
   width: 50%;
   height: 37.5rem;
-  background: floralwhite;
   /* border: 1px solid green; */
   border-radius: 8px;
   margin: 3.125rem auto 3.125rem;
