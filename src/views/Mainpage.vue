@@ -73,7 +73,7 @@ button:hover {
 
 @media screen and (max-width: 600px) {
   #home {
-  background-image: url(../assets/fff.jpg);
+  background-image: url(../assets/ggg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: cover cover;
