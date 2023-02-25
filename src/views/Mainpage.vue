@@ -32,6 +32,7 @@ export default {
   background-repeat: no-repeat;
   background-position: cover cover;
   background-attachment: scroll;
+  object-fit: cover;
   padding: 7.375rem 1.25rem;
 }
 /* h1 {
@@ -78,6 +79,7 @@ button:hover {
   background-repeat: no-repeat;
   background-position: cover cover;
   background-attachment: scroll;
+  object-fit: cover;
   padding: 4.375rem 1.25rem;
 }
   .picture {
